@@ -78,6 +78,7 @@ let divisionEdadesingresado = edad + edad_mascota
 console.log("la division de su edad y la de su mascota da " + divisionEdadesingresado);
 
 console.log("------------------ejercicio 11------------------------");
+//ejercicio 11//
 let estudiante = {
     nombreEstudiante: "david",
     apellidoEstudiante: "perez",
@@ -87,8 +88,8 @@ let estudiante = {
 }
 console.table(estudiante);
 
-
 console.log("------------------ejercicio 12------------------------");
+//ejercicio 12//
 let MascotaInfo = {
     nombreMascotaInfo: "tor",
     tipodeMascotaInfo: "tortuga",
@@ -99,14 +100,17 @@ let MascotaInfo = {
 console.table(MascotaInfo);
 
 console.log("------------------ejercicio 13------------------------");
+//ejercicio 13//
 const frutas = ["manzana", "pera", "banano", "lulo", "sandia"];
 console.log(frutas);
 
 console.log("------------------ejercicio 14------------------------");
+//ejercicio 14//
 const numeros = [1, 2, 3, 4, 5];
 console.log(numeros);
 
 console.log("------------------ejercicio 15------------------------");
+//ejercicio 15//
 const familia = [
     {nombre:"juan", edad:15},
     {nombre:"cris", edad: 6}, 
@@ -117,11 +121,12 @@ const familia = [
 console.log(familia);
 
 console.log("------------------ejercicio 16------------------------");
+//ejercicio 16//
 let textoAleatorio = frutas[2] + " " + numeros[4] + " " + familia[5]
 console.log(textoAleatorio);
 
-
 console.log("------------------ejercicio 17------------------------");
+//ejercicio 17//
 let edadMia = prompt("ingrese su edad")
 console.log("su edad es= " + edadMia);
 let edadCompañero = prompt("ingrese la edad de su compañero")
@@ -133,22 +138,18 @@ console.log("Mi edad es igual a la de mi compañero: " + edadesIguales );
 console.log("Mi edad es mayor a la de mi compañero: " + soyMayor );
 console.log("Mi edad es menor a la de mi compañero: " + soyMenor );
 
-
-
 console.log("------------------ejercicio 18------------------------");
+//ejercicio 18//
 let mi_edad = prompt("mi edad es ")
 let edadMayor = 18
-
 if (mi_edad >= edadMayor) {
     console.log("soy mayor de edad y mi edad es " + mi_edad);
 } else {
     console.log("UD NO ES MAYOR DE EDAD");
 }
 
-
-
 console.log("------------------ejercicio 19------------------------");
-
+//ejercicio 19//
 let edadJuego = prompt("ingrese su edad ")
 let estaturaJuego = prompt("ingrese su estatura en centimetros ")
 let puedeSubiredad = 6
@@ -160,8 +161,8 @@ if (edadJuego > puedeSubiredad && estaturaJuego >120) {
     alert("UD PUEDE SUBIR AL JUEGO")
 }
 
-
 console.log("------------------ejercicio 20------------------------");
+//ejercicio 20//
 let pase = prompt("INGRESE POR FAVOR SI SU PASE ES VIP, NORMAL O LIMITADO")
 let saldo = prompt("INGRESE POR FAVOR SU SALDO DISPONIBLE")
 let puedepasarpase = "VIP"
@@ -171,13 +172,3 @@ if (pase == puedepasarpase && saldo > puedepasarsaldo) {
 } else {
     console.log("LA PERSONA NO PUEDE PASAR");
 }
-
-
-
-
-
-
-
-
-
-
